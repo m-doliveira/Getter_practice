@@ -6,9 +6,10 @@ public class RoboFac {
     }
     public RoboFac (){
         //System.out.println(square(5));
-        Tool Hammer= new Tool("hammer",2,8);
+        Tool Hammer= new Tool("hammer");
          Hammer.printInfo();
-
+            Hammer.getWidth();
+            Hammer.getLength();
     }
     //public int square(int x) {
        // return x*x;
