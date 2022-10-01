@@ -11,6 +11,8 @@ public class RoboFac {
             Hammer.getWidth();
             Hammer.getLength();
     }
+
+
     //public int square(int x) {
        // return x*x;
     }

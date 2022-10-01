@@ -1,6 +1,6 @@
 public class Tool {
     private int length = 3;
-    private int width = 7;
+    private int width=7;
     public String name;
     //constructor
     public Tool( String pName){
@@ -12,6 +12,8 @@ public class Tool {
         System.out.println("It is "+ length +" inches long and "+width+" inches wide.");
 
     }
+
+
     public int getWidth (){
         return  width;
     }
