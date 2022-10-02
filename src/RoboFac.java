@@ -8,8 +8,13 @@ public class RoboFac {
         //System.out.println(square(5));
         Tool Hammer= new Tool("hammer");
          Hammer.printInfo();
+        Hammer.available(true);
             Hammer.getWidth();
             Hammer.getLength();
+            Parts Rod= new Parts();
+
+            Rod.partInfo();
+
     }
 
 
