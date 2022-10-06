@@ -1,11 +1,11 @@
-import java.lang.reflect.Array;
+import java.util.ArrayList;
 
 public class RoboFac {
     public static void main(String[] args) {
         RoboFac myapp= new RoboFac();
         //type psvm to create main class out of a regular class
         //System.out.print("hi");
-        Robot model1;
+        Robot<String> model1;
     }
     public RoboFac (){
         //System.out.println(square(5));
@@ -16,8 +16,9 @@ public class RoboFac {
             Hammer.getLength();
             Parts Rod= new Parts();
             Rod.partInfo();
-      Robot[]model1;
-      model1= new Robot[2];
+        ArrayList<String>name=new ArrayList<String>();
+        Robot[] model1=new Robot[2];
+
 
     }
 
